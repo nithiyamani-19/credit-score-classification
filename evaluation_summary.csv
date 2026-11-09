@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1,Weighted F1,Poor F1,Standard F1,Good F1
+Random Forest,0.701,0.6783,0.7022,0.6818,0.7448,0.6084
+XGBoost,0.6956,0.6698,0.6952,0.6757,0.7399,0.5936
+Logistic Regression,0.6632,0.633,0.6597,0.592,0.7214,0.5857

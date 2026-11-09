@@ -1,0 +1,4 @@
+Model,Train accuracy,Validation accuracy,Validation macro F1,Train time (s),Gap
+Logistic Regression,0.6636,0.6632,0.633,0.5,0.0004
+Random Forest,0.9638,0.701,0.6783,25.2,0.2628
+XGBoost,0.8658,0.6956,0.6698,6.0,0.1702
