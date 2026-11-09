@@ -33,10 +33,11 @@ Best model: **Random Forest**
 5. Payment_of_Min_Amount_Yes
 
 ## Repository contents
-- `notebooks/credit_score_classification.ipynb`: full analysis and model code
-- `reports/final_report.docx`: final report
-- `outputs/`: predictions, evaluation summary, feature importance tables
-- `figures/`: all charts
+- `credit_score_classification.ipynb`: full analysis and model code
+- `final_report.docx`: final report
+- `predictions.csv`: predicted credit scores for test.csv
+- `evaluation_summary.csv`, `feature_importance.csv`, `permutation_importance.csv`, `train_vs_validation.csv`: result tables
+- `01_...png` to `15_...png`: all charts
 
 ## Note
 `test.csv` has no `Credit_Score`, so metrics come from a customer-grouped validation split of `train.csv`. `test.csv` is used only for final predictions.
